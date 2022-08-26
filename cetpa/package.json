@@ -1,0 +1,15 @@
+{
+  "name": "cetpa",
+  "version": "1.0.0",
+  "description": "online traning",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali Tejasvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "progress": "^2.0.3"
+  }
+}

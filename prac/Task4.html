@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flip-card</title>
+<style>
+
+/*body{
+background-color: green;
+}*/
+
+
+.card{
+height: 200px;
+width: 200px;
+background-color: teal;
+position: relative; 
+/*margin: 50px;*/
+box-shadow: 10px 10px 10px;
+transform-style: preserve-3d;
+transition: transform 5s;
+}
+
+.front, .back{
+height: 100%;
+width: 100%;
+/*background-color: pink;*/
+position: absolute;
+/*bottom: 0;
+right: 0;*/
+backface-visibility: hidden;
+}
+
+.card:hover{
+	transform: rotateY(180deg);
+}
+
+
+.back{
+	transform: rotateY(180deg);
+	background-color: pink;
+}
+
+
+.Bbox{
+	height: 200px;
+	width: 200px;
+	background-color: brown;
+	position: relative;
+}
+
+.box1{
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	position: absolute;
+}
+
+
+.box2{
+	height: 50px;
+	width: 50px;
+	background-color: yellowgreen;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+	<div class="card">
+		<div class="front">
+			I am front
+		</div>
+		<div class="back">
+			I am back
+		</div>
+	</div>
+<br><hr><br><br>
+
+	<div class="Bbox">
+		<div class="box1">
+			
+		</div>
+		<div class="box2"></div>
+	</div>
+
+</body>
+</html>

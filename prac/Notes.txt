@@ -1,0 +1,1 @@
+1. readFileSync --> reads the file
