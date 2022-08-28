@@ -1,8 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 nav{
-    background-color: grey;
+    background-color: rgb(55, 52, 52);
     padding:   12px;
 }
 
+body::before{
+    content: "";
+    width: 100vw;
+    opacity: 0.8;
+    height: 800px;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('https://www.fitnessfirst.co.uk/media/cm2jlwu2/fitnessfirst_interiors-bakerst_147_web.jpg?width=540&height=405&quality=80&rnd=132869859581330000') repeat center center;
+}
 
 ul{
     display: flex;
@@ -22,9 +36,35 @@ a{
 
 h1{
     text-align: center;
+    color: aliceblue;
+    font-family: cursive;
 }
 .container{
+    /* background: url('https://www.fitnessfirst.co.uk/media/cm2jlwu2/fitnessfirst_interiors-bakerst_147_web.jpg?width=540&height=405&quality=80&rnd=132869859581330000'); */
     margin:  12px auto;
-    background-color: yellow;
     max-width: 70%;
+}
+
+input,textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 23px;
+}
+
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background-color: rgb(12, 7, 114);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid blue;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
 }

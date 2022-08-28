@@ -20,16 +20,13 @@
     <div class="container">
         <h1>Get this Gym memberShip for $60</h1>
            <!-- | #{content} -->
-           <form action="/" id="contact">
-            <input type="text" name="name"
-            id="name"
-            placeholder="Entere your name">
-            <input type="text" name="age"
-            id="age"
-            placeholder="Entere your age">
-            <input type="text" name="gender"
-            id="gender"
-            placeholder="Entere your gender">
+           <form action="/" method="post" id="contact">
+            <input type="text" name="name" id="name" placeholder="enter your name">
+            <input type="text" name="age" id="age" placeholder="Entere your age">
+            <input type="text" name="gender" id="gender" placeholder="Entere your gender">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="more" id="more" cols="30" rows="10" placeholder="Tell about yourSelf..."></textarea>
+            <button class="btn">Submit</button>
            </form>
     </div>
 </body>

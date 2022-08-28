@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+
+}
+
+#navbar{
+    background-color: rgb(5, 5, 112);
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: aliceblue;
+    padding: 13px 30px;
+    font-size: 17px;
+    text-decoration: none;
+}
+#navbar li a:hover{
+    font-size: 20px;
+}
+#introSection{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    background-color: turquoise;
+    background: url('https://media.istockphoto.com/photos/ballet-girl-in-tightfitting-suit-jumping-on-black-background-with-her-picture-id1300314436?b=1&k=20&m=1300314436&s=170667a&w=0&h=mFi5va3jsRdYXkx4LTK8MuwUn-rWV4lX1HMzD2xu5SU=');
+    
+}
+#introSection div.small{
+    font-size: 27px;
+}
+
+#sponsorSection{
+    height: 300px;
+    color: aliceblue;
+    background-color: rgba(8, 20, 98, 0.815);
+}
+
+#sponsorSection{
+    text-align: center;
+    padding: 23px;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+#missionSection{
+    height: 300px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    display: inline-block;
+    margin: 23px 15px;
+    height: 200px;
+    background: url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3Jvd2R8ZW58MHx8MHx8&w=1000&q=80');
+}
+.card h3{
+    text-align: center;
+    margin: 50px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+#footer{
+    height: 100px;
+    background-color: blueviolet;
+}

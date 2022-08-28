@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introSection
+        div Welcome to dance Academy 
+        div.small Live Learn dance 
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance perfection
+        div.card
+            h3 Dance the way you like
+        div.card
+            h3 Expert Teaching
+    section#sponsorSection
+        h3 Our sponser 
+    footer#footer 
+        | our footer here
+    script
+      include ../static/index.js
