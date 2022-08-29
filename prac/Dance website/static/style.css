@@ -57,6 +57,17 @@
     padding: 23px;
 }
 
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+#sponsors img{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 #missionSection h2{
     text-align: center;
     padding-top: 12px;
@@ -84,6 +95,12 @@
 
 }
 #footer{
-    height: 100px;
-    background-color: blueviolet;
+    height: 60px;
+    color: aliceblue;
+    background-color: rgb(4, 4, 95);
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    display: flex;
 }
