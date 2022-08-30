@@ -1,0 +1,13 @@
+()=>{
+    console.log("i am Arrowfunction")
+}()=>{
+    console.log("i am Arrowfunction")
+}
+const functionName=()=>{
+    console.log("I am updated arrow function");
+}()=>{
+    console.log("i am Arrowfunction")
+}
+const functionName=()=>{
+    console.log("I am updated arrow function");
+}
