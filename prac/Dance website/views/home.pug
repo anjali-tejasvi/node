@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    nav#navbar.top 
+        ul 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introSection
+        div Welcome to dance Academy 
+        div.small Live Learn dance 
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance perfection
+        div.card
+            h3 Dance the way you like
+        div.card
+            h3 Expert Teaching
+    section#sponsorSection
+        h3 Our sponsers 
+        div#sponsors 
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6v7O0mUkqjgU4yCk4rCQTYUQwtFFKfppfdA&usqp=CAU", alt="sponsor image", class="spImage")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6v7O0mUkqjgU4yCk4rCQTYUQwtFFKfppfdA&usqp=CAU", alt="sponsor image", class="spImage")
+            img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6v7O0mUkqjgU4yCk4rCQTYUQwtFFKfppfdA&usqp=CAU", alt="sponsor image", class="spImage")
+block foot
+    footer#footer 
+        | Copyright © 2022 Anjali Tejasvi

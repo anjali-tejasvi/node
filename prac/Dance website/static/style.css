@@ -28,7 +28,8 @@
     text-decoration: none;
 }
 #navbar li a:hover{
-    font-size: 20px;
+    color: rgb(6, 6, 97);
+    background-color: aliceblue;
 }
 #introSection{
     height: 300px;
